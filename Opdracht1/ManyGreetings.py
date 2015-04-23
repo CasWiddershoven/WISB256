@@ -1,2 +1,3 @@
 name = input("Naam? ")
-print("Hello, %s!" % name)
+times = input("How many times? ")
+print("%s x Hello, %s!" % (times, name))
