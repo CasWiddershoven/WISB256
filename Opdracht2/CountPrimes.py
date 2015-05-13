@@ -1,7 +1,7 @@
 from math import log
 from sys import argv
 
-primes = [float(p) for p in open(argv[1]).readlines()]
+primes = [int(p) for p in open(argv[1]).readlines()]
 print("{:<14}=  {}".format("Largest Prime", primes[-1]))
 print("--------------------------------  ")
 print("{:<14}=  {}".format("pi(N)", len(primes)))
